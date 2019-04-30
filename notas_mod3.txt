@@ -1,0 +1,20 @@
+Aplicação com API REST
+
+Mongo DB
+Mongo DB é o banco não relacional, muito usado quando temos uma larga
+escala de dados com poucos ou quase nenhum relacionamento
+
+> docker ps //mostra os container que estão executando
+
+> docker start container ou name // iniciar o serviço
+
+
+--- instalando o ORM para usar o mongo db
+
+> yarn add mongoose
+
+--- criptografia de senha
+
+para criptografar a senha do usuario, instalar o > bcryptjs.
+
+no Model do User, importar a biblioteca e usar a funcao pre()
